@@ -1,0 +1,16 @@
+name = "qwen-code-proxy"
+main = "src/worker.ts"
+compatibility_date = "2025-11-17"
+
+compatibility_flags = ["nodejs_compat"]
+
+[[kv_namespaces]]
+binding = "QWEN_CODE_KV"
+id = "e47e9281527041f284675bd25cc3b865"
+
+[dev]
+ip = "0.0.0.0"
+port = 8787
+
+[observability.logs]
+enabled = true

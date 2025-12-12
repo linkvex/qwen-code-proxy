@@ -1,0 +1,7 @@
+# Required: paste the entire contents of your oauth_creds.json file from the official qwen-code CLI.
+QWEN_CREDS={"access_token":"ya29...","refresh_token":"1//...","token_type":"Bearer","expiry_date":1750927763467,"resource_url":"portal.qwen.ai"}
+
+
+# Optional: require callers to present a shared API key using "Authorization: Bearer <key>".
+# Enabled by default. you can disable it by adding a comment.
+API_KEY=sk-secret

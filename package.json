@@ -1,0 +1,17 @@
+{
+  "name": "qwen-code-proxy",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker that proxies requests to the Qwen Code API with automatic OAuth token refresh",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "format": "prettier --write ./src"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250204.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.7.2",
+    "wrangler": "^4.45.4"
+  }
+}
